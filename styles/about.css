@@ -1,0 +1,23 @@
+.about {
+    min-height: 60vh;
+}
+
+.about-heading {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about-body {
+    margin: 4% 20%;
+}
+
+.about-title {
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 1% 0;
+}
+
+.about-text {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
