@@ -1,23 +1,56 @@
 .about {
     min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25vh;
+    gap: 4rem;
 }
 
-.about-heading {
+.about-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     text-align: center;
-    font-size: 3rem;
+    gap: 20px;
+    padding: 0 5%;
 }
 
-.about-body {
-    margin: 4% 20%;
+.about-intro-title {
+    font-size: 60px;
+    text-align: center;
 }
 
-.about-title {
+.about-intro-description {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.about-details {
+    width: 60%;
+    text-align: left;
+    margin-bottom: 20vh;
+}
+
+.about-details-title {
+    color: white;
     font-size: 24px;
-    color: rgba(255, 255, 255, 0.9);
-    margin: 1% 0;
+    text-align: left;
+    margin: 0.5rem 0;
+    font-weight: normal;
 }
 
-.about-text {
+.about-details-text {
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.7);
+    color: rgba(255, 255, 255, 0.8);
+    text-align: left;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 600px) {
+    .about-details {
+        width: 90%;
+    }
 }
