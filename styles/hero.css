@@ -49,45 +49,6 @@
     transition: 0.6s;
 }
 
-.down-arrow {
-    position: absolute;
-    top: 80vh;
-    left: calc(50% - 14px);
-    width: 0;
-    height: 25px;
-    border: 2px solid;
-    border-radius: 100px;
-    animation: jumpInfinite 1.5s infinite;
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.down-arrow:after {
-    content: " ";
-    position: absolute;
-    top: 12px;
-    left: -10px;
-    width: 16px;
-    height: 16px;
-    border-bottom: 4px solid;
-    border-right: 4px solid;
-    border-radius: 2px;
-    transform: rotateZ(45deg);
-}
-
-@keyframes jumpInfinite {
-    0% {
-        margin-top: 0;
-    }
-
-    50% {
-        margin-top: 20px;
-    }
-
-    100% {
-        margin-top: 0;
-    }
-}
-
 @media only screen and (max-width: 600px) {
     .hero-name {
         font-size: 6rem;

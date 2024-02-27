@@ -1,0 +1,162 @@
+.projects {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 25vh;
+    gap: 4rem;
+}
+
+.projects-intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 0 5%;
+}
+
+.projects-intro-title {
+    font-size: 60px;
+    text-align: center;
+}
+
+.projects-intro-description {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.projects-intro-chevron {
+    margin-top: 10vh;
+    height: 15vh;
+}
+
+.projects-intro-chevron-icon {
+    animation: jump 1.5s infinite;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* Project cards */
+.project-cards {
+    display: grid;
+    grid-gap: 4rem;
+    margin-bottom: 20vh;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 300px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
+.project-card:hover {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.project-card-image {
+    object-fit: cover;
+    aspect-ratio: 2/1;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 0px 2px;
+}
+
+.project-card-info {
+    padding: 20px;
+    width: 100%;
+    text-align: left;
+}
+
+.project-card-info-title {
+    color: white;
+    font-size: 20px;
+}
+
+.project-card-info-description {
+    padding: 6px 0;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    min-height: 120px;
+}
+
+.project-card-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 4px 20px 10px 20px;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .projects-intro-title {
+        font-size: 36px;
+    }
+
+    .projects-intro-description {
+        font-size: 16px;
+    }
+
+    .projects-intro-chevron {
+        margin-top: 5vh;
+    }
+
+    .project-cards-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .project-card {
+        width: 300px;
+    }
+}
+
+/* Project Cards Grid Media Queries */
+
+@media screen and (min-width: 1050px) {
+    .project-cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 1049px) and (min-width: 700px) {
+    .project-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 699px) {
+    .project-cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+@keyframes jump {
+    0% {
+        margin-top: 0;
+    }
+
+    50% {
+        margin-top: 20px;
+    }
+
+    100% {
+        margin-top: 0;
+    }
+}

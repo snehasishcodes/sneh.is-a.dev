@@ -1,0 +1,75 @@
+.btn-default {
+    border: none;
+    background: rgba(255, 255, 255, 0.7);
+    color: black;
+    border-radius: 100px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-default:hover {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.btn-green {
+    border: none;
+    background: rgb(104, 211, 145, 0.9);
+    color: black;
+    border-radius: 100px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-green:hover {
+    background: rgb(104, 211, 145);
+}
+
+.btn-blue {
+    border: none;
+    background: rgb(98, 178, 237, 0.9);
+    color: black;
+    border-radius: 100px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-blue:hover {
+    background: rgb(98, 178, 237);
+}
+
+.btn-pink {
+    border: none;
+    background: rgb(246, 135, 179, 0.9);
+    color: black;
+    border-radius: 100px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-pink:hover {
+    background: rgb(246, 135, 179);
+}
+
+
+.btn-orange {
+    border: none;
+    background: rgb(248, 147, 68, 0.9);
+    color: black;
+    border-radius: 100px;
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.btn-orange:hover {
+    background: rgb(248, 147, 68);
+}
