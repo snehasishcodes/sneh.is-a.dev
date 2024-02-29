@@ -48,6 +48,7 @@
 }
 
 .activity-tab {
+    display: none;
     margin-top: 4rem;
     text-align: center;
 }
